@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Dummy App</string>
+
+    <!--Home-->
+    <string name="linear">Linear Layout</string>
+    <string name="relative">Relative Layout</string>
+    <string name="recycler">Recycler View</string>
+    <string name="web">Web View</string>
+    <string name="map">Map View/Child Click Listner</string>
+    <string name="logout">Logout</string>
+
+
+    <!--Login Screen-->
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup_u"><u>Signup</u></string>
+    <string name="forgot_password_u"><u>Forgot Password</u></string>
+
+
+
+    <!--Login Dialog-->
+
+    <string name="ok">OK</string>
+    <string name="empty_username_msg">Please enter Username</string>
+    <string name="empty_password_msg">Please enter Password</string>
+    <string name="invalid_username_password_msg">Invalid Username/Password combination</string>
+
+
+    <!--Signup Screen-->
+
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="password_repeat">Repeat Password</string>
+    <string name="phone">Phone</string>
+    <string name="signup">Signup</string>
+    <string name="gender">Gender</string>
+
+    <!--String array for gender-->
+    <string-array name="genders">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--Error Messages-->
+    <string name="empty_name">Name can\'t be empty</string>
+    <string name="invalid_name">The entered Name does not look right. \n Please review!</string>
+    <string name="empty_email">Email can\'t be empty</string>
+    <string name="invalid_email">Not a valid Email</string>
+    <string name="invalid_password">Not a valid Password. Need at least: \n 8 characters \n 1 Lowercase character \n 1 Uppercase character \n 1 Special Symbol \n No spaces</string>
+    <string name="no_match_passwords">Passwords do not match</string>
+    <string name="invalid_phone">Invalid Phone number(need 10 digit number)</string>
+    <string name="select_gender">Please select Gender</string>
+
+    <!--Forgot Password Screen-->
+    <string name="text_forgot_password">Please enter you registered email address, we will send you a mail to reset you password.</string>
+    <string name="registered_email">Enter your Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_passsword">Forgot Password</string>
+
+    <!--Dashboard-->
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+    <string-array name="nav_menu_items">
+        <item>Option1</item>
+        <item>Option2</item>
+        <item>Option3</item>
+        <item>Option4</item>
+        <item>Option5</item>
+    </string-array>
+    <string name="title_activity_navigation_main">NavigationActivityMain</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Fragments-->
+    <string name="text_linear_layout">Hi, I am a Linear Layout. \n I am residing in my own Fragment. \n I come in 2 orientations, Vertical and Horizontal \n (Blue Layout with Red Buttons)</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+
+    <string name="ui_modules">UI Modules</string>
+    <string name="api_modules">API Modules</string>
+    <string name="home">Home</string>
+    <string name="simple_request">Simple Request</string>
+    <string name="get_request">Say Hi</string>
+    <string name="post_request">Post</string>
+    <string name="hi_url">"http://www.requestb.in/u3tgrhu3"</string>
+    <string name="http">Http</string>
+    <string name="retrofit_request">Make a Request using Retrofit</string>
+    <string name="retrofit">Retrofit</string>
+    <string name="search">Search</string>
+    <string name="advance_map">Advance Map</string>
+
+    <string-array name="en_movie_titles">
+        <item>Batman v Superman</item>
+        <item>Marvel Avengers</item>
+        <item>Marvel Avengers 2</item>
+        <item>Guardians of the Galaxy</item>
+        <item>Captain America</item>
+        <item>Iron Man</item>
+        <item>Hulk</item>
+        <item>Green Arrow</item>
+        <item>Flash</item>
+        <item>DareDevil</item>
+        <item>Black Panther</item>
+        <item>Jarvis</item>
+        <item>Joker</item>
+        <item>Aqua-man</item>
+        <item>Ben 10</item>
+        <item>Xlr8</item>
+        <item>Tarzan</item>
+    </string-array>
+
+    <string-array name="hi_movie_titles">
+        <item>My Friend Ganesha</item>
+        <item>Lootera</item>
+        <item>Namastey London</item>
+        <item>Ram-Leela</item>
+        <item>Udaan</item>
+        <item>Iqbal</item>
+        <item>3 Idiots</item>
+        <item>Dangal</item>
+        <item>Tanu weds Manu</item>
+        <item>Gulaal</item>
+        <item>Pink</item>
+        <item>Tarzan: The Wonder Car</item>
+    </string-array>
+
+    <string-array name="locations">
+        <item>World Trade Park</item>
+        <item>Chul Giri</item>
+        <item>Jal Mahal</item>
+        <item>Nahargarh Fort</item>
+        <item>Amer Fort</item>
+        <item>Crystal Palm</item>
+        <item>Hawa Mahal</item>
+        <item>City Palace</item>
+        <item>Raj Mandir Cinema</item>
+        <item>Jawahar Kala Kendra</item>
+        <item>Albert Hall Museum</item>
+    </string-array>
+
+    <string-array name="locationsLat">
+        <item>26.8542607</item>
+        <item>26.8909883</item>
+        <item>26.9389063</item>
+        <item>26.9375997</item>
+        <item>26.9854865</item>
+        <item>26.9033604</item>
+        <item>26.9239363</item>
+        <item>26.9269153</item>
+        <item>26.9162094</item>
+        <item>26.8763360</item>
+        <item>26.9116760</item>
+    </string-array>
+
+    <string-array name="locationsLng">
+        <item>75.8050297</item>
+        <item>75.8582874</item>
+        <item>75.8159735</item>
+        <item>75.8136654</item>
+        <item>75.8491567</item>
+        <item>75.7902708</item>
+        <item>75.8245551</item>
+        <item>75.8212561</item>
+        <item>75.8072037</item>
+        <item>75.8069543</item>
+        <item>75.8172808</item>
+    </string-array>
+
+
+</resources>

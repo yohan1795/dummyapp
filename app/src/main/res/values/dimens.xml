@@ -1,0 +1,16 @@
+<resources>
+    <!-- Custom screen margins, per the Android Design requirement -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="margin_components_small">5dp</dimen>
+    <dimen name="margin_components">10dp</dimen>
+    <dimen name="margin_components_large">25dp</dimen>
+    <dimen name="margin_components_xlarge">30dp</dimen>
+    <dimen name="margin_components_xxlarge">35dp</dimen>
+    <dimen name="box_size">20dp</dimen>
+    <dimen name="padding_edittext">10dp</dimen>
+    <dimen name="drawer_width">240dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "382601591637",
+    "project_id": "dummyapp-153615"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382601591637:android:1cf7d024aa56e758",
+        "android_client_info": {
+          "package_name": "com.yohan.dummyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382601591637-3eflnp8p92iohnhhhchkj1nfmctpdg9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yohan.dummyapp",
+            "certificate_hash": "C056A18DBAFD5EFA6BFBBE5B5276744695BCFA81"
+          }
+        },
+        {
+          "client_id": "382601591637-kaevrsmnccl9vb9rel3nbbpcmj92l88u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1BmolgtbaDaYAdmxp56BNZtWEc284e8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding"
+    android:background="@android:color/holo_green_light">
+
+    <Button
+        android:text="TOP-LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="TOP-RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button2"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="BOTTOM-LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="BOTTOM-RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button4"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="CENTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button5"
+        android:background="@android:color/holo_red_light"/>
+
+    <TextView
+        android:text="Aligned with start of button below with vertical offset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:padding="@dimen/margin_components_small"
+        android:background="@android:color/holo_blue_light"
+        android:layout_above="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="66dp" />
+
+    <TextView
+        android:text="Aligned with end of button above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:id="@+id/textView"
+        android:background="@android:color/holo_blue_light"
+        android:padding="@dimen/margin_components_small"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button5" />
+</RelativeLayout>
